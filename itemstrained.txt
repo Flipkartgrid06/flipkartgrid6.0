@@ -25,13 +25,13 @@ Odonil
 
 Pedigree
 
-Scrub Pad
+Scrub Pad Scorch Brite
 
 Surf Excel Detergent
 
 Vim Detergent Bar
 
-Coconut Oil
+Coconut Oil Parachute
 
 Dabur Red Paste
 
@@ -57,7 +57,7 @@ Aashirvaad Atta
 
 Fortune Cooking Oil
 
-Ghee
+Ghee RKG
 
 Horlicks
 
@@ -74,7 +74,7 @@ Snickers
 Unibic Cookies
 
 
-fruits and vegetables
+Fruits and Vegetables :
 
 Apple 
 
