@@ -21,13 +21,13 @@ conn = psycopg2.connect(database="postgres", user="logesh", password="lo87sh76",
 # Load YOLOv8 model
 model = YOLO(r"C:\Users\logesh\Desktop\bests.pt")
 
-# Load the new YOLOv8 model for fruits and vegetables detection
+
 fruit_veg_model = YOLO(r"C:\Users\logesh\Desktop\bestveg.pt")
 
-# For the model you want on GPU
+
 model.to('cuda')
 
-# For the model you want on CPU
+
 fruit_veg_model.to('cuda')
 
 
@@ -53,7 +53,7 @@ def get_class_mapping():
     return jsonify(class_mapping)
 
 
-# Example route to get product liveness based on detected class
+
 @app.route('/get_product_liveness/<detected_class>', methods=['GET'])
 def get_product_liveness(detected_class):
     # Get the product liveness from the mapping
@@ -150,7 +150,7 @@ def gen_frames():
             print("Error: Failed to capture image.")
             break
 
-        # Resize or modify the frame for better performance (optional)
+        # Resize or modify the frame for better performance
         frame = cv2.resize(frame, (640, 480))
 
         current_time = time.time()
